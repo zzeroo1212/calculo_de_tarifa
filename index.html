@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css">
+  <title>tarifa_de_elpleados</title>
+  <link rel="stylesheet" href="tarifa.php">
+</head>
+
+<body>
+  <h2> calculo de tarifa </h2>
+
+  <div>
+
+    <img src="img-oficina.jpg" alt="img-oficina">
+
+
+  </div>
+
+  <form action="tarifa.php" method="post">
+
+    <table> <!--ingreso por pantalla  empleado ,horas,tarifa ,catefogria-->
+
+
+      <tr>
+
+        <td>empleado</td>
+        <td> <input type="text" name="Txempleado" placeholder="ingrese nombre" id=""> </td>
+
+
+      </tr>
+
+
+      <tr>
+
+        <td>horas de trabajo </td>
+
+        <td> <input type="number" name="Txhoras" id="" placeholder="ingrese horas"></td>
+      </tr>
+
+
+      <tr>
+        <td> categoria </td>
+        <td>
+          <select name="selcategoria" id="">
+            <option value=""> selecione categoria </option>
+            <option value="jefe">jefe</option>
+            <OPtion value="administrativo">administrativo</OPtion>
+            <option value="operario">operiario</option>
+            <option value="junior">junior</option>
+          </select>
+        </td>
+      </tr>
+
+
+      <tr>
+
+        <td><input class="submit" type="submit" value="enviar"></td>
+
+        <td><input class="reset" type="reset" value="reinciar"></td>
+
+      </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+    </table>
+
+  </form>
+
+
+  <!-- POR PANTALLA  falta la table /teble/-->
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
